@@ -8,7 +8,7 @@ class PizzaForm(forms.ModelForm):
       model = Pizza
       fields = ['topping1', 'topping2', 'size']
       labels = {'topping1': 'Topping 1', 'topping2': 'Topping 2'}
-      widgets = {'topping1':forms.Textarea, 'topping2':forms.Textarea}
+      #widgets = {'topping1':forms.Textarea, 'topping2':forms.Textarea}
 
 """ class PizzaForm(forms.Form):
    topping1 = forms.CharField(label='Topping 1', max_length=100)
